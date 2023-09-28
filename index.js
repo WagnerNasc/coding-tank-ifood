@@ -50,8 +50,8 @@ const findRequestedNumbers = (array) => {
   return numbersNotDuplicated;
 };
 
-const numeros = [12, 17, 15, 19, 22, 17, 19, 12];
-const response3 = findRequestedNumbers(numeros)
+const numbers = [12, 17, 15, 19, 22, 17, 19, 12];
+const response3 = findRequestedNumbers(numbers)
 console.log(`3. Desafio: Número Solitário: ${response3}`);
 
 // 4. Qual é a saída do código a seguir?
